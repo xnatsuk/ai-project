@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ai-project"
+version = "0.1.0"
+description = ""
+authors = ["xnatsuk <louisetona@xnatsuk.dev>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^24.8.0"
+pydub = "^0.25.1"
+torch = "^2.4.1"
+transformers = "^4.45.1"
+accelerate = "^0.34.2"
+whisperplus = "^0.3.4"
+hqq = "^0.2.2"
+protobuf = "^5.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
